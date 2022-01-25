@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules ./*/node_modules"
+  },
+  "workspaces": [
+    "front",
+    "cdk"
+  ],
+  "devDependencies": {
+    "prettier": "2.4.1"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  }
+}

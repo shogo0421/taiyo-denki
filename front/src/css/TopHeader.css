@@ -1,0 +1,112 @@
+/* mobile first */
+
+.appBar-title {
+  flex-grow: 1;
+}
+
+.menu-icon {
+  padding: 10px;
+}
+
+.page-navigation {
+  display: none;
+}
+.page-navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.page-navigation ul li a {
+  border: rgb(160, 160, 160) solid 1px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 16px;
+  text-decoration: none;
+}
+
+.mobile-contact-bar {
+  background-color: #333;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.mobile-contact-bar .mail-box {
+  text-align: center;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 0px 30px;
+  color: white;
+}
+
+.mobile-contact-bar .line-box {
+  text-align: center;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 0px 30px;
+  color: white;
+}
+
+.mobile-contact-bar .tel-box {
+  text-align: center;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 0px 30px;
+  color: white;
+}
+
+.pc-top-ads-image {
+  display: none;
+}
+
+.mobile-top-ads-image {
+  max-width: 100%;
+}
+
+/*pc css*/
+@media (min-width: 1024px) {
+  .pc-top-ads-image {
+    display: block;
+  }
+
+  .mobile-top-ads-image {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+  .mobile-contact-bar {
+    display: none;
+  }
+
+  .page-navigation {
+    display: block;
+  }
+
+  .page-navigation ul li {
+    float: left;
+  }
+
+  .page-navigation ul li a {
+    border: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .page-navigation ul li a:hover {
+    background-color: #111;
+  }
+}
+
+/*
+  @media screen and (max-width: 959px) {
+    tablet & mobile css
+  }
+  */
