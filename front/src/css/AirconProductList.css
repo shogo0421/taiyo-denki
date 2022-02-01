@@ -1,0 +1,21 @@
+.product-container {
+  display: flex;
+}
+
+.product-img {
+  width: 170px;
+  padding: 10px;
+}
+
+.product-title {
+  font-size: 15px;
+}
+
+.product-model {
+  font-size: 15px;
+}
+
+.product-price {
+  font-size: 20px;
+  color: red;
+}

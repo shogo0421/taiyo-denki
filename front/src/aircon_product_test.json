@@ -1,0 +1,95 @@
+{
+  "6-8": [
+    {
+      "title": "三菱 MSZ-ZXV4021S",
+      "model": "MSZ-ZXV4021S",
+      "maker": "三菱",
+      "model_year": "2019",
+      "price": 35800,
+      "stock": 10,
+      "img": "src/images/aircon_daikin.jpeg",
+      "type": "8-10"
+    },
+    {
+      "title": "三菱 MSZ-ZXV4021S",
+      "model": "MSZ-ZXV4021S",
+      "maker": "三菱",
+      "model_year": "2019",
+      "price": 10000,
+      "stock": 10,
+      "img": "src/images/aircon_daikin.jpeg",
+      "type": "8-10"
+    },
+    {
+      "title": "三菱 MSZ-ZXV4021S",
+      "model": "MSZ-ZXV4021S",
+      "maker": "三菱",
+      "model_year": "2019",
+      "price": 10000,
+      "stock": 10,
+      "img": "src/images/aircon_daikin.jpeg",
+      "type": "8-10"
+    }
+  ],
+  "8-10": [
+    {
+      "title": "三菱 MSZ-ZXV4021S 2019年式",
+      "model": "MSZ-ZXV4021S",
+      "maker": "三菱",
+      "model_year": "2019",
+      "price": 10000,
+      "stock": 10,
+      "img": "src/images/aircon_daikin.jpeg",
+      "type": "8-10"
+    },
+    {
+      "title": "三菱 MSZ-ZXV4021S 2019年式",
+      "model": "MSZ-ZXV4021S",
+      "maker": "三菱",
+      "model_year": "2019",
+      "price": 10000,
+      "stock": 10,
+      "img": "src/images/aircon_daikin.jpeg",
+      "type": "8-10"
+    }
+  ],
+  "10-12": [
+    {
+      "title": "東芝 XSS-ZXY2033S 2019年式",
+      "model": "MSZ-ZXV4021S",
+      "maker": "三菱",
+      "model_year": "2019",
+      "price": 45000,
+      "stock": 10,
+      "img": "src/images/aircon_daikin.jpeg",
+      "type": "8-10"
+    },
+    {
+      "title": "三菱 MSZ-ZXV4021S 2019年式",
+      "model": "MSZ-ZXV4021S",
+      "maker": "三菱",
+      "model_year": "2019",
+      "price": 10000,
+      "stock": 10,
+      "img": "src/images/aircon_daikin.jpeg",
+      "type": "8-10"
+    }
+  ],
+  "12-14": [
+    {
+      "Name": "",
+      "model": "",
+      "price": 10000,
+      "stock": 10,
+      "img": "",
+      "type": "8-10"
+    },
+    {
+      "Name": "",
+      "model": "",
+      "price": 10000,
+      "stock": 10,
+      "img": ""
+    }
+  ]
+}

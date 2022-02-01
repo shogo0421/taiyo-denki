@@ -1,6 +1,8 @@
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
 import AirconPage from "./components/AirconPage";
+import TopHeader from "./components/TopHeader";
+import TopFooter from "./components/TopFooter";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -21,11 +23,13 @@ function App() {
 
   return (
     <div className="App">
+      <TopHeader />
       <Router>
         <Routes>
           <Route path="/" element={<AirconPage />} />
         </Routes>
       </Router>
+      <TopFooter />
     </div>
   );
 }

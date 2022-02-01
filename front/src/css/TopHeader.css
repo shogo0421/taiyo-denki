@@ -63,13 +63,14 @@
 }
 
 .mobile-top-ads-image {
-  max-width: 100%;
+  width: 100%;
 }
 
 /*pc css*/
 @media (min-width: 1024px) {
   .pc-top-ads-image {
     display: block;
+    width: 100%;
   }
 
   .mobile-top-ads-image {
@@ -102,6 +103,10 @@
 
   .page-navigation ul li a:hover {
     background-color: #111;
+  }
+
+  .aircon-top-ads-div {
+    background-color: rgb(211, 211, 211);
   }
 }
 

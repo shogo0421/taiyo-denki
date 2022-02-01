@@ -1,0 +1,100 @@
+.aircon-service-box {
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.service-img-container {
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  position: relative;
+}
+
+.aircon-services-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.service-img {
+  height: 100px;
+  width: 300px;
+  object-fit: none;
+  object-position: 0% 50%;
+}
+
+.aircon-service-mask {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(42, 42, 42, 0.8) 80%);
+  /* background-color: rgba(70, 70, 70, 0.6); */
+  position: absolute;
+  top: 50px;
+  display: table;
+}
+
+.aircon-service-text {
+  color: white;
+  font-size: 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.aircon-products-title-container {
+  background-color: rgba(105, 105, 105, 0.6);
+}
+
+.aircon-products-title-text {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* .description-container {
+  border-top: dimgray solid 2px;
+} */
+
+.description-links {
+  text-align: center;
+}
+
+.description-link {
+  background-color: rgb(255, 155, 155);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px 0;
+  margin: 15px auto;
+  font-size: 17px;
+  font: bold;
+  max-width: 600px;
+  border-radius: 50px;
+  width: 90%;
+}
+
+@media (min-width: 1024px) {
+  .aircon-services-container {
+    background-color: rgb(211, 211, 211);
+  }
+
+  .service-img {
+    height: auto;
+    width: auto;
+    object-fit: none;
+    object-position: 0% 0%;
+  }
+
+  .aircon-service-mask {
+    height: 30%;
+    top: 120px;
+  }
+
+  .description-link {
+    font-size: 25px;
+  }
+}

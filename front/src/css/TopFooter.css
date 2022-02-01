@@ -1,0 +1,81 @@
+.footer-links-container {
+  background-color: #333;
+}
+
+.footer-links-first ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer-links-first ul a {
+  border: rgb(160, 160, 160) solid 1px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 100px;
+  text-decoration: none;
+}
+.footer-links-second ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer-links-second ul a {
+  border: rgb(160, 160, 160) solid 1px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 100px;
+  text-decoration: none;
+}
+
+.footer-company-container {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+}
+.footer-company-name {
+  padding: 10px;
+  width: 300px;
+  font-size: 30px;
+  text-align: center;
+}
+.footer-company-info {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-info-subject {
+  width: 140px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.company-info-content {
+  width: 150px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.footer-company-contact {
+  width: 300px;
+  padding: 5px 10px;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+  .footer-links-first {
+    width: 330px;
+  }
+}
