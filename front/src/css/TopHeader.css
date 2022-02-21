@@ -19,7 +19,8 @@
   background-color: #333;
 }
 .page-navigation ul li a {
-  border: rgb(160, 160, 160) solid 1px;
+  border-top: rgb(160, 160, 160) solid 1px;
+  border-bottom: rgb(160, 160, 160) solid 1px;
   display: block;
   color: white;
   text-align: center;

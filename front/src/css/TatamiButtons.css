@@ -29,3 +29,9 @@
   font-size: 20px;
   color: #333;
 }
+
+@media (min-width: 1024px) {
+  .selected-button-title-text {
+    font-size: 25px;
+  }
+}

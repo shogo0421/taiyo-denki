@@ -6,6 +6,8 @@ import mobile_top_ads from "../images/mobile_top_ads.png";
 import aircon_repair_service from "../images/aircon_repair_service.png";
 import "../css/AirconPage.css";
 import AirconProductList from "./AirconProductList";
+import TopHeader from "./TopHeader";
+import TopFooter from "./TopFooter";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -43,7 +45,8 @@ function AirconPage() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <div>
+    <>
+      <TopHeader />
       <div className="aircon-top-ads-div">
         <img src={pc_top_ads} className="pc-top-ads-image" />
         <img src={mobile_top_ads} className="mobile-top-ads-image" />
@@ -58,7 +61,8 @@ function AirconPage() {
         <div className="description-link">「タイヨーでんき」が選ばれる理由</div>
         <div className="description-link">作業完了までの流れ</div>
       </div>
-    </div>
+      <TopFooter />
+    </>
   );
 }
 

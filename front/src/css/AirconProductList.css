@@ -19,3 +19,12 @@
   font-size: 20px;
   color: red;
 }
+
+@media (min-width: 1024px) {
+  .product-container {
+    width: 400px;
+  }
+  .aircon-product-list-container {
+    width: 400px;
+  }
+}

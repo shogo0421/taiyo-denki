@@ -53,3 +53,14 @@
 メール・電話 アイコン画像
 https://everydayicons.jp/icons/mail/
 https://www.silhouette-illust.com/illust/26526#google_vignette
+
+
+
+/products/{products_id}
+get
+post
+
+cdk api gateway rest api -> lambda -> dynamodb
+
+
+

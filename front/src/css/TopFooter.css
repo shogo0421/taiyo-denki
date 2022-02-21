@@ -10,7 +10,8 @@
 }
 
 .footer-links-first ul a {
-  border: rgb(160, 160, 160) solid 1px;
+  border-top: rgb(160, 160, 160) solid 1px;
+  border-bottom: rgb(160, 160, 160) solid 1px;
   display: block;
   color: white;
   text-align: center;
@@ -25,7 +26,8 @@
 }
 
 .footer-links-second ul a {
-  border: rgb(160, 160, 160) solid 1px;
+  border-top: rgb(160, 160, 160) solid 1px;
+  border-bottom: rgb(160, 160, 160) solid 1px;
   display: block;
   color: white;
   text-align: center;
@@ -75,7 +77,15 @@
 }
 
 @media (min-width: 1024px) {
+  .footer-links-container {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
   .footer-links-first {
-    width: 330px;
+    width: 440px;
+  }
+  .footer-links-second {
+    width: 440px;
   }
 }

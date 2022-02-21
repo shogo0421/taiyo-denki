@@ -62,7 +62,7 @@ function TopHeader() {
   const [displayCss, setDisplayCss] = React.useState({});
 
   return (
-    <div>
+    <>
       <AppBar elevation={0} position="static" color="default">
         <Toolbar>
           <Typography variant="h6" className="appBar-title">
@@ -85,7 +85,7 @@ function TopHeader() {
       </AppBar>
       {pageNavigation(displayCss)}
       {mobileContactBar()}
-    </div>
+    </>
   );
 }
 
